@@ -1,7 +1,7 @@
 Ext.Loader.setConfig({
         enabled: true
     });
-//alert('sdf');
+alert('sdf1');
 
 Ext.application({
 	name: 'App',  
@@ -16,7 +16,7 @@ Ext.application({
             items: [{xtype: 'button' , text: 'asdfasfd'}]
 		});
 		//Ext.Msg.alert('adsf','sdf');
-		alert('sdf');
+		alert('sdf2');
     },
     
 });
