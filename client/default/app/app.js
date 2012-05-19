@@ -2,8 +2,8 @@ alert('alertFromapp');
 
 /*Ext.Loader.setConfig({
         enabled: true
-    });
-alert('sdf1');
+    });*/
+
 
 Ext.application({
 	name: 'App',  
@@ -17,9 +17,8 @@ Ext.application({
 			layout: 'hbox',
             items: [{xtype: 'button' , text: 'asdfasfd'}]
 		});
-		//Ext.Msg.alert('adsf','sdf');
 		alert('sdf2');
     },
     
-});*/
+});
 
