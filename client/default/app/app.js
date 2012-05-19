@@ -1,4 +1,8 @@
-
+Ext.Loader.setConfig({
+        enabled: true
+    });
+alert('sdf');
+Ext.Msg.alert('adsf','sdf');
 Ext.application({
 	name: 'App',  
 
