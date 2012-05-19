@@ -1,4 +1,6 @@
-Ext.Loader.setConfig({
+alert('alertFromapp');
+
+/*Ext.Loader.setConfig({
         enabled: true
     });
 alert('sdf1');
@@ -19,5 +21,5 @@ Ext.application({
 		alert('sdf2');
     },
     
-});
+});*/
 
