@@ -8,7 +8,7 @@ Ext.application({
 	},	
 	launch: function() {
 		//Ext.Msg.alert('2','3');
-		App.mainView = Ext.create('Ext.Panel', {
+		App.viewport = Ext.create('Ext.Panel', {
 			//id: 'appContainer',
 			//html: 'asdfasdf',
 			fullscreen: true,
