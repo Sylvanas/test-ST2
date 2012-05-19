@@ -1,0 +1,73 @@
+@CHARSET "ISO-8859-1";
+.panelBackground {
+	background: url('../images/mobihead.jpg') no-repeat center;
+	background-size:50% !important;
+	background-color:black !important;
+	margin:0;
+	padding:0;
+	height:100% !important;
+	width:100%!important;
+}
+.transparent_bg{
+	background-color:white !important;
+}
+.transparent_bg .x-layout-card-item{
+	background-color:white !important;
+}
+.bottom_menu{
+	background-color:transparent !important;
+}
+.btnNoStyles{
+	margin:0;
+	padding:0;
+	width:90% !important;
+	height:100% !important;
+	background-color:transparent !important;
+	background-image: none !important;
+	border:none !important;
+}
+.centeredBtn .x-panel-inner{
+	-webkit-box-align: center !important; 
+}
+.amountValueContainer{
+	width:95%;
+	height:50px;
+	-webkit-border-radius: 0.5em; border-radius: 0.5em;
+	border: 1px solid #f49300 !important;
+	-webkit-border: 1px solid #f49300 !important;
+	background: #f49300 !important;
+}
+
+.payment-label{
+	color:#f49300; font-size:24px; font-weight:bold; padding-top:5px; padding-bottom:5px; text-align:left !important;
+}
+.amount-value{
+	font-size:35px; font-weight:bold; padding-top:5px; padding-left:5px; 
+}
+.centered{
+	text-align:center !important;
+}
+
+.amount-value-to-pay{
+	font-size:35px; font-weight:bold; padding-top:5px; color: #f49300;
+}
+
+.swipeText{
+	color:#f49300; font-size:68px; font-weight:bold;
+}
+
+.processingStatusText{ 
+	font-size:35px;
+}
+.number-buttons{
+	height:50px !important;
+	margin:3px 10px 3px 10px;
+	background-color:#f49300 !important; 
+	-webkit-border-radius: 1.5em; 
+	border-radius: 1.5em;
+	font-size:24px;
+}
+.flippedBtn{
+	padding: .6em .3em !important;
+	height: 60px !important;
+}
