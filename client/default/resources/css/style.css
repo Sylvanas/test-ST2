@@ -1,0 +1,102 @@
+/* Logo -------------------------------------------------------------------- */
+
+.logo
+{
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZ8AAAAwCAIAAABBveBMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMeSURBVHhe7dzbcYMwEEBR15WCUk+qSQMpI8UQYx6WCfgxgvGyHP4ySGL3ruaOhHBOPy4EEEAgI4FTxqTkhAACCPywm0mAAAI5CbBbzrrKCgEE2M0cQACBnATYLWddZYUAAuxmDiCAQE4C7JazrrJCAAF2MwcQQCAnAXbLWVdZIYAAu5kDCCCQkwC75ayrrBBAgN3MAQQQyEmA3XLWVVYIIMBu5gACCOQkwG456yorBBBgN3MAAQRyEmC3nHV9Pqvfr49Te318/TbP99ISgfgE2C1+jbaNkN225Wv09xFgt/exj/FkdotRB1GsT4Dd1me6rxHv261phvuX7ev/Dezk9tiog/Cw+75YiXZfBNhtX/VaP9o7dpuarRfc6fO7f0M3q7ZOga3aFm6P3ddPxogIFATY7ejTYcluxbKrP3Bomu/PXnBnQZ2v/s/OZeerO57o5PWw+9G5y397Auy2PePYT1i0W3GjzGDcnw5Ls+tha3f6Olm4je47D+IdX+y5kC06dstW0VfzWbTbsFArN5Lj6u2yeLtZu4370H7t9qj7q3Fqj8CrBNjtVWLZ2lfYbfbFWuu9dmfKbtlmyv7yYbf91WzdiF/amZaNi9dww3FDu0ntDxxG89mZrlsvoz1PgN2eZ5Wz5ROnCsNybDwDvVhsWJ31dyd0ilOF+e45acoqEgF2i1SNd8Qy/9nGjb+GpdntJ28LH3xcZXc9Yr0ZwE++3lHmQz6T3Q5Z9iLpO3ZrX59NFFXuPZe+Zyt+snqn+9G5y397Auy2PeOkTxi0OLNY871u0prvLC1221nB4oR7/R5kOEkYl4HsFqdMR46E3Y5c/arcl36GddmY+mdKVWx1XoUAu62C8aCD/D83sGo76FQImTa7hSyLoBBAoJoAu1UjNAACCIQkwG4hyyIoBBCoJsBu1QgNgAACIQmwW8iyCAoBBKoJsFs1QgMggEBIAuwWsiyCQgCBagLsVo3QAAggEJIAu4Usi6AQQKCaALtVIzQAAgiEJMBuIcsiKAQQqCbAbtUIDYAAAiEJsFvIsggKAQSqCbBbNUIDIIBASAJ/CtIE7p8ZfU0AAAAASUVORK5CYII=);
+	background-repeat: no-repeat;
+	background-position: right top; 
+	margin: 5px;
+}
+
+.x-input-el{
+	color: #2590DC;
+}
+
+/*the form panel border*/
+.x-inner .x-form-fieldset-inner{
+	border-width:4px;
+	border-color: #2590DC;
+}
+
+.x-form-label{
+	border-width:1px;
+	border-style:solid;
+	border-color: #2590DC;
+}
+
+.x-field-input{
+	border-width:1px;
+	border-style:solid;
+	border-color: #2590DC;
+}
+
+.x-form-label{
+	color: #2590DC;
+}
+
+/*this is not working*/
+.x-input-el .x-form-field .x-input-text{
+	color: #2590DC;
+}
+
+.x-item-disabled .x-form-label span, .x-item-disabled input, .x-item-disabled .x-input-el, .x-item-disabled .x-spinner-body, .x-item-disabled select, .x-item-disabled textarea, .x-item-disabled .x-field-clear-container{
+	-webkit-text-fill-color: #B4D7F3;
+}
+
+.x-body > .x-inner, .x-container > .x-inner {
+	min-height:0;
+}
+
+.x-container .x-panel .x-layout-card-item {
+	background: white;
+}
+
+.x-field-input .x-clear-icon {
+	display: none;
+}
+
+.SoundAlertFormPanel {
+	text-shadow: white 0 1px 1px;
+	color: #333;
+	text-shadow: rgba(255, 255, 255, 0.25) 0 0.08em 0;
+	background-color: #F7F7F7;
+	border-top: 1px solid white;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.x-field-clearable .x-field-input{
+	padding: 0 !important;	
+}
+
+.x-button.x-button-confirm, .x-button.x-button-confirm.x-button-back::after, .x-button.x-button-confirm.x-button-forward::after, .x-toolbar .x-button.x-button-confirm, .x-toolbar .x-button.x-button-confirm.x-button-back::after, .x-toolbar .x-button.x-button-confirm.x-button-forward::after, .x-button.x-button-confirm-round, .x-button.x-button-confirm-round.x-button-back::after, .x-button.x-button-confirm-round.x-button-forward::after, .x-toolbar .x-button.x-button-confirm-round, .x-toolbar .x-button.x-button-confirm-round.x-button-back::after, .x-toolbar .x-button.x-button-confirm-round.x-button-forward::after, .x-button.x-button-confirm-small, .x-button.x-button-confirm-small.x-button-back::after, .x-button.x-button-confirm-small.x-button-forward::after, .x-toolbar .x-button.x-button-confirm-small, .x-toolbar .x-button.x-button-confirm-small.x-button-back::after, .x-toolbar .x-button.x-button-confirm-small.x-button-forward::after{
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #C2FA3B), color-stop(2%, #85BB05), color-stop(100%, #547503));
+}
+
+.x-button.x-button-confirm, .x-toolbar .x-button.x-button-confirm, .x-button.x-button-confirm-round, .x-toolbar .x-button.x-button-confirm-round, .x-button.x-button-confirm-small, .x-toolbar .x-button.x-button-confirm-small{
+	border-width: 3px;
+}
+
+.x-button.x-button-action, .x-toolbar .x-button.x-button-action, .x-button.x-button-action-round, .x-toolbar .x-button.x-button-action-round, .x-button.x-button-action-small, .x-toolbar .x-button.x-button-action-small{
+	border-width: 3px;
+}
+
+.x-button{
+	border-width: 3px;
+}
+
+.x-toggle-on{
+	/*background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #F7F7F7), color-stop(10%, #F7F7F7), color-stop(65%, #F7F7F7), color-stop(100%, #F7F7F7));*/
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%,  #F7F7F7), color-stop(10%,  #F7F7F7), color-stop(65%,  #F7F7F7), color-stop(100%,  #F7F7F7)) !important;
+}
+
+.x-list-inner{
+	background: white;
+}
+
+/*.navList .x-scrollbar-vertical
+{
+	left: 0px;
+	background-color: #f0ae4b;
+}*/
+
