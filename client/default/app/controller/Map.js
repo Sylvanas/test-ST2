@@ -270,6 +270,12 @@ function MapViewHandleServerResponse(result){
 	var mapStore = Ext.getStore('Map');
 	mapStore.removeAll();
 	mapStore.setData(result);
+	var alertResult = "";
+	for(var i=0;i<mapStore.getCount();i++){
+		var record = mapStore.getAt(i);
+		alertResult = alertResult + record.get('latitude') + ' ' + record.get('longitude') + ' ' + record.get('time') + '/n/r' ;
+	}
+	alert(alertResult);
 	App.Global.changeView(App.view.MapView.xtype);
 	App.MapController.setMapObjects();
 }
